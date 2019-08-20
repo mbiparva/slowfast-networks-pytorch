@@ -80,6 +80,6 @@ All of the configuration hyperparameters are set in the lib/utils/config.py. If 
 ## Experimental Results
 Currently, the implementation is trained and tested on UCF101 with the following results. We are going to update gradually as we search for hyperparameters that improve the prediction results. The results are the 0-1 classification accuracy rate.
 
-| Net           | Training      | Test  |
-| ------------- |:-------------:| -----:|
-| Aug 2019      | 92%           | 42%   |
+| Net                     | Training      | Test  |
+| ----------------------- |:-------------:| -----:|
+| Aug 2019, Split #1      | 92%           | 42%   |
