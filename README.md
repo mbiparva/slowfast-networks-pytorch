@@ -13,6 +13,7 @@ This is a PyTorch implementation of the "SlowFast Networks for Video Recognition
 
 ## Introduction
 Action recognition is one of the core tasks in video understanding and it has similar importance to image classification in the static vision domain. There are two common approaches in deep learning that started far apart at the beginning and recently have shown converging to somewhere in between. The first approach is using 3D convolutional layers that process the input spatiotemporal tensor while the second approach is human-brain-inspired and benefits from a Siamese network architecture. Recently, [Christoph](https://arxiv.org/abs/1812.03982) has proposed to extend the two-stream networks with the idea of having expert networks on each pathway: (1) the slow pathway has high parametric capacity and process the RGB information in slower speed of processing while (2) the fast pathway benefits from the fast pathway with a wider temporal receptive field but lower parametric capacity. This has shown promising improvement over the SOTA in action recognition and detection tasks on Kinetics and AVA datasets respectively.
+This repository is motivate by [this](https://github.com/r1ch88/SlowFastNetworks) SlowFast implementation and is extended to improve the usability, readability and modularity of the code.
 
 ## Installation
 
