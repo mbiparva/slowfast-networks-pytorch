@@ -26,11 +26,7 @@ __C.VALIDATING = True
 __C.ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
 
 # Data directory
-# TODO: take care of this before releasing the code
-if socket.gethostname() == 'mahd-ubuntu':
-    __C.DATASET_DIR = '/media/mahd/SamSSD/myImp_survived/AttentionFusionMultiSpeedNets/datasets'
-else:
-    __C.DATASET_DIR = os.path.abspath(os.path.join(__C.ROOT_DIR, 'dataset'))
+__C.DATASET_DIR = os.path.abspath(os.path.join(__C.ROOT_DIR, 'dataset'))
 
 # Model directory
 __C.MODELS_DIR = os.path.abspath(os.path.join(__C.ROOT_DIR, 'lib', 'models'))
